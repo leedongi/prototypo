@@ -3,25 +3,29 @@
 
 html, body, head, header, div {border:0; padding:0; margin:0px;}
 
-html, header {background-color: rgb(244, 235, 220); color: white;}
+html {background-color: rgb(245, 235, 220); color: white;}
 
-header {position:fixed; width: 100%; height: 100px; box-shadow: 0 8px 8px -8px black;}
+header {position:fixed; width: 120%; height: 99px; box-shadow: 0 8px 8px -8px black; background-color: rgb(0, 0, 0, 70%); left: -10%; border-bottom:1px solid rgba(10, 10, 10);}
 
 
-img.logo {width:200px;
+img.logo {width:60px;
 	position: absolute;
-    top: 38px;
-    left: 50%;
+    top: 50px;
+    left: 33.5%;
     transform: translate(-50%, -50%);}
 
-div.menu {display:block; width:auto; margin:0 auto; text-align: center; padding-top:28px;}
-div.menu > ul {display:inline-block; margin:0px; padding-left:0px;}
+div.menu {position:absolute; margin:0 auto; text-align: center; padding:0px; top: 45px; left: 50%; transform: translate(-50%, -50%);}
+div.menu > ul {margin:0px; padding-left:0px; display:block;}
 div.menu > ul > li {list-style-type:none; float:left;}
 div.menu > ul > li:nth-child(1), li:nth-child(2), li:nth-child(3) {padding-right:20px;}
-div.menu > ul a, a:link, a:visited, a:hover, a:active, a:focus {color:rgb(238, 238, 238); font-weight: 800; font-size:16px; text-decoration: none;}
+div.menu > ul a, a:link, a:visited, a:hover, a:active, a:focus {color:rgb(215, 215, 215); font-weight: 800; font-size:28px; text-decoration: none; margin:5px; height:30px; display:block;}
+div.menu > ul a:hover {color:rgb(255, 255, 255);}
+div.menu > ul a > p {margin:0px; display: inline-block;}
 	
-div.bodywrap {padding-top:150px; min-width:600px; max-width:60%; margin:0 auto;}
+div.bodywrap {padding-top:50px; min-width:600px; max-width:60%; margin:0 auto;}
 div.bodywrap > hr {border:0px; border-top: 2px solid #3a3a49; margin-top:23px; margin-bottom:23px;}
+
+div.banner {max-width:100%;padding-top: 100px; margin:0 auto;}
 
 div.first {width:780px; margin:0 auto; //overflow-x:hidden;//}
 //div.first section#slider1 {width:4680px;}//

@@ -25,7 +25,7 @@ div.menu > ul a > p {margin:0px; display: inline-block;}
 div.bodywrap {padding-top:50px; min-width:600px; max-width:60%; margin:0 auto;}
 div.bodywrap > hr {border:0px; border-top: 2px solid #3a3a49; margin-top:23px; margin-bottom:23px;}
 
-div.banner {max-width:100%;padding-top: 100px; margin:0 auto;}
+div.banner {max-width:100%;padding-top: 100px; margin:0 auto; overflow:hidden;}
 
 div.first {width:780px; margin:0 auto; //overflow-x:hidden;//}
 //div.first section#slider1 {width:4680px;}//
